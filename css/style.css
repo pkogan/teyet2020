@@ -8,10 +8,19 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+#areasinteres  img {
+  height: 100px;
+  margin-bottom: 10px;
+}
 #comites .academico {
     border-left: 1px solid #ddd;
     
 }
+#inscripcion .tarifas {
+    border-left: 1px solid #ddd;
+    
+}
+
 #header #logo h2 {
   font-size: 30px;
   margin: 0;
