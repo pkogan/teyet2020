@@ -575,7 +575,40 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 20px;
 }
 
+#intro .row, #avisos .row{
+    text-align: center;
+}
+.msj-btn{
+    padding-top: 2px;
+    position: relative;
+    width: 250px;
+}
+.webex-btn{
+    width: 94px;
+    
+}
+.webex-img{
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    position: relative;
+    
+    /*top: 9px;*/
+ 
+}
+
+.youtube-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    /*top: 9px;*/
+ 
+}
+
+
 #intro .play-btn {
+    color:#FFFFFF;
     width: 94px;
     height: 94px;
     background: radial-gradient(#f82249 50%, rgba(101, 111, 150, 0.15) 52%);
@@ -649,7 +682,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     border-radius: 0;
 }
 
-#intro .about-btn {
+
+
+#intro .about-btn, #avisos .about-btn  {
     font-family: "Raleway", sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -666,7 +701,30 @@ body.mobile-nav-active #mobile-nav-toggle {
     border: 2px solid #f82249;
 }
 
-#intro .about-btn:hover {
+.video-trabajo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 5px;
+    margin: 0px;
+    border-radius: 50px;
+    transition: 0.5s;
+    line-height: 1;
+    
+    color: #fff;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+    border: 2px solid #f82249;
+}
+
+#avisos .about-btn{
+    color: #0e1b4d;
+    font-size: 20px;
+}
+
+#intro .about-btn:hover, #avisos .about-btn:hover, .video-trabajo:hover {
     background: #f82249;
     color: #fff;
 }
