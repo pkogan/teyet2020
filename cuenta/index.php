@@ -21,20 +21,22 @@
                 font-family: Arial;
                 font-size: 17px;
                 background-repeat: no-repeat;
+                background-color: #000;
             }
 
             #myVideo {
                 position: fixed;
-                right: 0;
-                bottom: 0;
-                min-width: 100%; 
-                min-height: 100%;
+             
+                top: 0;
+                 
+                height: 100%;
+                width: 100%;
             }
 
             .content {
                 position: fixed;
                 bottom: 0;
-                background: rgba(0, 0, 0, 0.5);
+                background: rgba(0, 0, 0, 0.3);
                 color: #f1f1f1;
                 width: 100%;
                 padding: 20px;
@@ -117,7 +119,7 @@ $$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ | $$ |$$\ $$ |  $$ |$$ |  $$ |$$ | $$ | $
             <div class="container" data-lead-id="section01-container">
                 <div class="countdown-wrap" data-lead-id="countdown-wrap">
                     <h1 class="msj" onclick="myFunction()"><?=$_REQUEST['msj']?></h1>
-                    <p>Comienzamos en:</p>
+                    <p>Comenzamos en:</p>
                     <ul class="countdown" data-lead-id="countdown">
                         <li>
                             <div class="flap">
