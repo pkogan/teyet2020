@@ -23,7 +23,7 @@
     border: 0;
     color: #fff;
 }
-#areasinteres  img {
+#areasinteres  img, #avisos p img{
     height: 100px;
     margin-bottom: 10px;
 }
