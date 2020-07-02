@@ -108,7 +108,7 @@ $$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ | $$ |$$\ $$ |  $$ |$$ |  $$ |$$ | $$ | $
             <source src="spot.mp3">
         </audio>
         <video autoplay muted loop id="myVideo">
-            <source src="contadorvideoBC16001200V1.mp4" type="video/mp4">
+            <source src="contadorvideoBC16001200V2.mp4" type="video/mp4">
         </video>
         
 
