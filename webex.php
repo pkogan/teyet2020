@@ -1,6 +1,6 @@
 <?php
-$corte1=new DateTime('2020-07-06 13:30');
-$corte2=new DateTime('2020-07-02 23:59');
+$corte1=new DateTime('2020-02-06 23:50');
+$corte2=new DateTime('2020-07-02 23:55');
 $now=new DateTime();
 print_r($now->format('Y-m-d H:i:s'));exit();
 if($now->getTimestamp()<$corte1->getTimestamp()){
