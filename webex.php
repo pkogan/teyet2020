@@ -1,5 +1,5 @@
 <?php
-$corte1=new DateTime('2020-07-06 13:30');
+$corte1=new DateTime('2020-07-06 13:10');
 $corte2=new DateTime('2020-07-06 23:00');
 $now=new DateTime();
 //print_r($now->format('Y-m-d H:i:s'));exit();
